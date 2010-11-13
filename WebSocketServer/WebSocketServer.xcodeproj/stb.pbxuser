@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 74AB5B60128A41A1007AB90F /* WebSocketServer */;
+		activeTarget = 8DD76F960486AA7600D96B5E /* WebSocketServer */;
+		addToTargets = (
+			8DD76F960486AA7600D96B5E /* WebSocketServer */,
+		);
+		breakpoints = (
+			7493E834128E0549001005A2 /* WebSocketServer.m:94 */,
+			7493E83E128E05CD001005A2 /* WebSocketServer.m:98 */,
+			7493E887128E14A8001005A2 /* WebSocketServer.m:113 */,
+			7493E88D128E14D8001005A2 /* WebSocketServer.m:112 */,
+			7493E8B2128E18F6001005A2 /* WebSocketServer.m:64 */,
+		);
+		codeSenseManager = 74AB5B6E128A41AA007AB90F /* Code sense */;
+		executables = (
+			74AB5B60128A41A1007AB90F /* WebSocketServer */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					749,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 311353549;
+			PBXWorkspaceStateSaveDate = 311353549;
+		};
+		perUserProjectItems = {
+			7493E6CF128C3AB0001005A2 = 7493E6CF128C3AB0001005A2 /* PBXTextBookmark */;
+			7493E6D2128C3AB0001005A2 = 7493E6D2128C3AB0001005A2 /* PBXTextBookmark */;
+			7493E6FC128C3F08001005A2 = 7493E6FC128C3F08001005A2 /* PBXTextBookmark */;
+			7493E6FF128C3F08001005A2 = 7493E6FF128C3F08001005A2 /* PBXTextBookmark */;
+			7493E70C128CBB44001005A2 = 7493E70C128CBB44001005A2 /* PBXTextBookmark */;
+			7493E793128CDEE9001005A2 = 7493E793128CDEE9001005A2 /* PBXTextBookmark */;
+			7493E8EB128E1DF8001005A2 = 7493E8EB128E1DF8001005A2 /* PBXTextBookmark */;
+			7493E908128E1F6D001005A2 = 7493E908128E1F6D001005A2 /* PBXTextBookmark */;
+			7493E909128E1F6D001005A2 = 7493E909128E1F6D001005A2 /* PBXTextBookmark */;
+			7493E90B128E3F76001005A2 = 7493E90B128E3F76001005A2 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 74AB5B6D128A41AA007AB90F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* WebSocketServer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {684, 1651}}";
+			sepNavSelRange = "{3534, 0}";
+			sepNavVisRange = "{1634, 608}";
+			sepNavWindowFrame = "{{42, 194}, {750, 558}}";
+		};
+	};
+	32A70AAB03705E1F00C91783 /* WebSocketServer_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {927, 459}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 172}";
+		};
+	};
+	7493E6B3128C3124001005A2 /* ZTLog.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ZTLog.h;
+		path = /Users/stb/SandboxDev/MultitouchWebSockets/WebSocketServer/ZTLog.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {927, 459}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 299}";
+		};
+	};
+	7493E6C2128C3446001005A2 /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {565, 364}}";
+			sepNavSelRange = "{565, 0}";
+			sepNavVisRange = "{139, 348}";
+			sepNavWindowFrame = "{{19, 215}, {750, 558}}";
+		};
+	};
+	7493E6CA128C3522001005A2 /* WebSocketServer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {927, 430}}";
+			sepNavSelRange = "{555, 0}";
+			sepNavVisRange = "{0, 562}";
+		};
+	};
+	7493E6CF128C3AB0001005A2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7493E6B3128C3124001005A2 /* ZTLog.h */;
+		name = "ZTLog.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 299;
+		vrLoc = 0;
+	};
+	7493E6D2128C3AB0001005A2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 74AB5B8C128C30B9007AB90F /* ZTWebSocket.m */;
+		name = "ZTWebSocket.m: 37";
+		rLen = 0;
+		rLoc = 1006;
+		rType = 0;
+		vrLen = 1383;
+		vrLoc = 399;
+	};
+	7493E6FC128C3F08001005A2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 74AB5B70128A41C2007AB90F /* AsyncSocket.h */;
+		name = "AsyncSocket.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1769;
+		vrLoc = 1509;
+	};
+	7493E6FF128C3F08001005A2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A70AAB03705E1F00C91783 /* WebSocketServer_Prefix.pch */;
+		name = "WebSocketServer_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 172;
+		vrLoc = 0;
+	};
+	7493E70C128CBB44001005A2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 74AB5B8B128C30B9007AB90F /* ZTWebSocket.h */;
+		name = "ZTWebSocket.h: 15";
+		rLen = 0;
+		rLoc = 284;
+		rType = 0;
+		vrLen = 1029;
+		vrLoc = 474;
+	};
+	7493E793128CDEE9001005A2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7493E6C2128C3446001005A2 /* main.m */;
+		name = "main.m: 20";
+		rLen = 0;
+		rLoc = 484;
+		rType = 0;
+		vrLen = 668;
+		vrLoc = 0;
+	};
+	7493E834128E0549001005A2 /* WebSocketServer.m:94 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
+		functionName = "-onSocket:didReadData:withTag:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 94;
+		location = WebSocketServer;
+		modificationTime = 311303927.5904469;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	7493E83E128E05CD001005A2 /* WebSocketServer.m:98 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
+		functionName = "-onSocket:didReadData:withTag:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 98;
+		location = WebSocketServer;
+		modificationTime = 311303923.442624;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7493E887128E14A8001005A2 /* WebSocketServer.m:113 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
+		functionName = "-onSocket:didReadData:withTag:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 113;
+		location = WebSocketServer;
+		modificationTime = 311303923.443427;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7493E88D128E14D8001005A2 /* WebSocketServer.m:112 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
+		functionName = "-onSocket:didReadData:withTag:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 112;
+		location = WebSocketServer;
+		modificationTime = 311303923.4441661;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7493E8B2128E18F6001005A2 /* WebSocketServer.m:64 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
+		functionName = "-parseHandshake:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 64;
+		location = WebSocketServer;
+		modificationTime = 311303941.795015;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	7493E8EB128E1DF8001005A2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 74AB5B71128A41C2007AB90F /* AsyncSocket.m */;
+		name = "AsyncSocket.m: 2336";
+		rLen = 14;
+		rLoc = 70690;
+		rType = 0;
+		vrLen = 1134;
+		vrLoc = 70189;
+	};
+	7493E908128E1F6D001005A2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7493E6CA128C3522001005A2 /* WebSocketServer.h */;
+		name = "WebSocketServer.h: 22";
+		rLen = 0;
+		rLoc = 555;
+		rType = 0;
+		vrLen = 562;
+		vrLoc = 0;
+	};
+	7493E909128E1F6D001005A2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
+		name = "WebSocketServer.m: 95";
+		rLen = 0;
+		rLoc = 2768;
+		rType = 0;
+		vrLen = 1243;
+		vrLoc = 2034;
+	};
+	7493E90B128E3F76001005A2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
+		name = "WebSocketServer.m: 67";
+		rLen = 0;
+		rLoc = 1672;
+		rType = 0;
+		vrLen = 1178;
+		vrLoc = 1062;
+	};
+	74AB5B60128A41A1007AB90F /* WebSocketServer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = WebSocketServer;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	74AB5B6D128A41AA007AB90F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	74AB5B6E128A41AA007AB90F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	74AB5B70128A41C2007AB90F /* AsyncSocket.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {927, 6760}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1509, 1769}";
+		};
+	};
+	74AB5B71128A41C2007AB90F /* AsyncSocket.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {852, 41717}}";
+			sepNavSelRange = "{70647, 14}";
+			sepNavVisRange = "{74239, 437}";
+			sepNavWindowFrame = "{{65, 173}, {750, 558}}";
+		};
+	};
+	74AB5B8B128C30B9007AB90F /* ZTWebSocket.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ZTWebSocket.h;
+		path = /Users/stb/SandboxDev/MultitouchWebSockets/WebSocketServer/ZTWebSocket.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {927, 715}}";
+			sepNavSelRange = "{284, 0}";
+			sepNavVisRange = "{474, 1029}";
+		};
+	};
+	74AB5B8C128C30B9007AB90F /* ZTWebSocket.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ZTWebSocket.m;
+		path = /Users/stb/SandboxDev/MultitouchWebSockets/WebSocketServer/ZTWebSocket.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {894, 2418}}";
+			sepNavSelRange = "{1006, 0}";
+			sepNavVisRange = "{741, 573}";
+		};
+	};
+	8DD76F960486AA7600D96B5E /* WebSocketServer */ = {
+		activeExec = 0;
+		executables = (
+			74AB5B60128A41A1007AB90F /* WebSocketServer */,
+		);
+	};
+}
