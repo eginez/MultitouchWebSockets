@@ -1,5 +1,6 @@
 MultitouchWebSockets
-An application to use multitoutch hardware in web applications.
+An application to use multitoutch hardware in web applications. It embeds a websocket server used to move
+data from the hardware to the web app.
 
-0.1:
+0.1: 
 
