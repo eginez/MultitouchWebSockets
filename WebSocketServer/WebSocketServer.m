@@ -60,10 +60,24 @@ NSString * const kNotificationMessage = @"kNotificationMessage";
 	[util release];
 }
 
-- (void)sendMessage:(NSString *)message {
-    NSString *terminatedMessage = [message stringByAppendingString:@"\r\n"];
-    NSData *terminatedMessageData = [terminatedMessage dataUsingEncoding:NSASCIIStringEncoding];
-    //[socket writeData:terminatedMessageData withTimeout:-1 tag:0];
+- (NSData *)frameData :(NSData *)payload{
+	char initFlag ='\x00';
+	char endFlag = '\xff';
+	NSData *begin =[NSData dataWithBytes:&initFlag length:1];
+	NSData *end = [NSData dataWithBytes:&endFlag length:1];
+	NSMutableData *ret = [[NSMutableData alloc] initWithCapacity:2];
+	[ret appendData:begin];
+	[ret appendData:payload];
+	[ret appendData:end];
+	return ret;
+}
+
+- (void)sendMessage:(NSString *)message toClient:(int)clientId{
+    NSData *payload = [message dataUsingEncoding:NSUTF8StringEncoding];
+    NSData *packet = [self frameData:payload];
+	NSLog(@"%@",packet);
+	AsyncSocket *s = [clients objectAtIndex:clientId];
+	[s writeData:packet withTimeout:-1 tag:0];	
 }
 
 - (void)onSocket:(AsyncSocket *)sock didAcceptNewSocket:(AsyncSocket *)newSocket{
@@ -120,13 +134,12 @@ NSString * const kNotificationMessage = @"kNotificationMessage";
 	NSString *ver = [[NSString alloc]initWithBytes:[chg bytes] length:[chg length] encoding:NSASCIIStringEncoding]; 
 	NSLog(@"all data in printed\n%@",ver);
 	NSLog(@"all data in hex\n%@",[util stringToHex:ver]);
-//	[self sendMessage:ver];
-	//[socket writeData:chg withTimeout:-1 tag:0];
+
 	AsyncSocket *c= [clients objectAtIndex:0];
 	[c writeData:chg withTimeout:-1 tag:0];
-	
-	//sendData
-	
+	[self sendMessage:@"1 10 10" toClient:(int)0];
+	[self sendMessage:@"1 10 11" toClient:0];
+	[self sendMessage:@"1 10 12" toClient:0];
 	return NO;	
 }
 

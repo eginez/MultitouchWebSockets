@@ -20,9 +20,10 @@ extern NSString * const kNotificationMessage;
 @property (readwrite, assign) BOOL isHandShaken;
 
 - (void)start:(NSNumber *)port;
-- (void)sendMessage:(NSString *)message;
+- (void)sendMessage:(NSString *)message toClient:(int)clientId;
 - (void)stop;
 - (void)parseHandshake:(NSString *)message;
 - (BOOL)sendHandshake;
+- (NSData *)frameData:(NSData *)payload;
 
 @end

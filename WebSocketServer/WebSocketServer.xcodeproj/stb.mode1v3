@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>748D25F31290561C0037DDFB</string>
+						<string>748D263112908B5E0037DDFB</string>
 						<key>history</key>
 						<array>
 							<string>748D258F128FBEF20037DDFB</string>
@@ -368,17 +368,17 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>748D25F21290561C0037DDFB</string>
+										<string>748D263012908B5E0037DDFB</string>
 										<key>history</key>
 										<array>
 											<string>7493E970128EEE5C001005A2</string>
 											<string>748D246A128F7D370037DDFB</string>
-											<string>748D2598128FBF840037DDFB</string>
 											<string>748D25C9129041C20037DDFB</string>
-											<string>748D25DD129053E30037DDFB</string>
 											<string>748D25DE129053E30037DDFB</string>
-											<string>748D25DF129053E30037DDFB</string>
-											<string>748D25F11290561C0037DDFB</string>
+											<string>748D25FC129082000037DDFB</string>
+											<string>748D25FD129082000037DDFB</string>
+											<string>748D261F129089C80037DDFB</string>
+											<string>748D2620129089C80037DDFB</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -576,7 +576,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>748D25F41290561C0037DDFB</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>748D23C3128F5F070037DDFB</string>
 		<string>748D23B7128F5C6E0037DDFB</string>
@@ -584,8 +583,8 @@
 		<string>748D258D128FBEF20037DDFB</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>74AB5B6B128A41AA007AB90F</string>
-		<string>/Users/stb/SandboxDev/MultitouchWebSockets/WebSocketServer/WebSocketServer.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/stb/SandboxDev/MultitouchWebSockets/WebSocketServer/WebSocketServer.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>4 55 1276 723 0 0 1280 778 </string>

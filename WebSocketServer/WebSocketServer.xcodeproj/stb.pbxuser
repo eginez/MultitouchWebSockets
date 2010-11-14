@@ -10,11 +10,11 @@
 		breakpoints = (
 			7493EA9A128F1D9B001005A2 /* Utilities.m:88 */,
 			748D24AD128F93070037DDFB /* Utilities.m:64 */,
-			748D251B128FB1EC0037DDFB /* WebSocketServer.m:165 */,
-			748D254A128FB5DB0037DDFB /* WebSocketServer.m:170 */,
-			748D254E128FB6230037DDFB /* WebSocketServer.m:173 */,
-			748D2558128FB6930037DDFB /* WebSocketServer.m:64 */,
-			748D257C128FBD9F0037DDFB /* WebSocketServer.m:127 */,
+			748D251B128FB1EC0037DDFB /* WebSocketServer.m:178 */,
+			748D254A128FB5DB0037DDFB /* WebSocketServer.m:183 */,
+			748D254E128FB6230037DDFB /* WebSocketServer.m:186 */,
+			748D2558128FB6930037DDFB /* WebSocketServer.m:75 */,
+			748D257C128FBD9F0037DDFB /* WebSocketServer.m:139 */,
 			748D2587128FBEDE0037DDFB /* AsyncSocket.m:2906 */,
 			748D2592128FBF3A0037DDFB /* AsyncSocket.m:2848 */,
 			748D25A8128FC0E10037DDFB /* AsyncSocket.m:2776 */,
@@ -252,6 +252,26 @@
 			748D25F11290561C0037DDFB /* XCBuildMessageTextBookmark */ = 748D25F11290561C0037DDFB /* XCBuildMessageTextBookmark */;
 			748D25F21290561C0037DDFB /* PBXTextBookmark */ = 748D25F21290561C0037DDFB /* PBXTextBookmark */;
 			748D25F31290561C0037DDFB /* PBXTextBookmark */ = 748D25F31290561C0037DDFB /* PBXTextBookmark */;
+			748D25FC129082000037DDFB /* PBXTextBookmark */ = 748D25FC129082000037DDFB /* PBXTextBookmark */;
+			748D25FD129082000037DDFB /* PBXTextBookmark */ = 748D25FD129082000037DDFB /* PBXTextBookmark */;
+			748D25FE129082000037DDFB /* PBXTextBookmark */ = 748D25FE129082000037DDFB /* PBXTextBookmark */;
+			748D25FF129082000037DDFB /* PBXTextBookmark */ = 748D25FF129082000037DDFB /* PBXTextBookmark */;
+			748D2600129082000037DDFB /* PBXTextBookmark */ = 748D2600129082000037DDFB /* PBXTextBookmark */;
+			748D2601129082000037DDFB /* PBXTextBookmark */ = 748D2601129082000037DDFB /* PBXTextBookmark */;
+			748D2603129082AC0037DDFB /* PBXTextBookmark */ = 748D2603129082AC0037DDFB /* PBXTextBookmark */;
+			748D2604129082AC0037DDFB /* PBXTextBookmark */ = 748D2604129082AC0037DDFB /* PBXTextBookmark */;
+			748D2605129082AC0037DDFB /* PBXTextBookmark */ = 748D2605129082AC0037DDFB /* PBXTextBookmark */;
+			748D2606129082AC0037DDFB /* PBXTextBookmark */ = 748D2606129082AC0037DDFB /* PBXTextBookmark */;
+			748D2611129085C20037DDFB /* PBXTextBookmark */ = 748D2611129085C20037DDFB /* PBXTextBookmark */;
+			748D2612129085C20037DDFB /* PBXTextBookmark */ = 748D2612129085C20037DDFB /* PBXTextBookmark */;
+			748D261F129089C80037DDFB /* PBXTextBookmark */ = 748D261F129089C80037DDFB /* PBXTextBookmark */;
+			748D2620129089C80037DDFB /* PBXTextBookmark */ = 748D2620129089C80037DDFB /* PBXTextBookmark */;
+			748D2621129089C80037DDFB /* PBXTextBookmark */ = 748D2621129089C80037DDFB /* PBXTextBookmark */;
+			748D2622129089C80037DDFB /* PBXTextBookmark */ = 748D2622129089C80037DDFB /* PBXTextBookmark */;
+			748D262912908A040037DDFB /* PBXTextBookmark */ = 748D262912908A040037DDFB /* PBXTextBookmark */;
+			748D262A12908A040037DDFB /* PBXTextBookmark */ = 748D262A12908A040037DDFB /* PBXTextBookmark */;
+			748D263012908B5E0037DDFB /* PBXTextBookmark */ = 748D263012908B5E0037DDFB /* PBXTextBookmark */;
+			748D263112908B5E0037DDFB /* PBXTextBookmark */ = 748D263112908B5E0037DDFB /* PBXTextBookmark */;
 			7493E793128CDEE9001005A2 = 7493E793128CDEE9001005A2 /* PBXTextBookmark */;
 			7493E96F128EEE5C001005A2 = 7493E96F128EEE5C001005A2 /* PBXTextBookmark */;
 			7493E970128EEE5C001005A2 = 7493E970128EEE5C001005A2 /* PBXTextBookmark */;
@@ -268,9 +288,9 @@
 	};
 	08FB7796FE84155DC02AAC07 /* WebSocketServer.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {927, 2535}}";
-			sepNavSelRange = "{1150, 0}";
-			sepNavVisRange = "{765, 1041}";
+			sepNavIntBoundsRect = "{{0, 0}, {927, 2483}}";
+			sepNavSelRange = "{4598, 0}";
+			sepNavVisRange = "{2933, 1880}";
 			sepNavWindowFrame = "{{42, 194}, {750, 558}}";
 		};
 	};
@@ -433,7 +453,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 118";
 		rLen = 0;
-		rLoc = 4241;
+		rLoc = 4665;
 		rType = 0;
 		vrLen = 2155;
 		vrLoc = 1291;
@@ -543,7 +563,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 106";
 		rLen = 0;
-		rLoc = 3498;
+		rLoc = 3878;
 		rType = 0;
 		vrLen = 2093;
 		vrLoc = 2321;
@@ -553,7 +573,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 106";
 		rLen = 0;
-		rLoc = 3498;
+		rLoc = 3878;
 		rType = 0;
 		vrLen = 2093;
 		vrLoc = 2321;
@@ -563,7 +583,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 108";
 		rLen = 0;
-		rLoc = 3498;
+		rLoc = 3878;
 		rType = 0;
 		vrLen = 2091;
 		vrLoc = 2321;
@@ -573,7 +593,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 108";
 		rLen = 0;
-		rLoc = 3498;
+		rLoc = 3878;
 		rType = 0;
 		vrLen = 1116;
 		vrLoc = 0;
@@ -613,7 +633,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 111";
 		rLen = 0;
-		rLoc = 3681;
+		rLoc = 4061;
 		rType = 0;
 		vrLen = 1832;
 		vrLoc = 2313;
@@ -623,7 +643,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 112";
 		rLen = 0;
-		rLoc = 4014;
+		rLoc = 4394;
 		rType = 0;
 		vrLen = 1908;
 		vrLoc = 2313;
@@ -633,7 +653,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 111";
 		rLen = 0;
-		rLoc = 3679;
+		rLoc = 4059;
 		rType = 0;
 		vrLen = 1907;
 		vrLoc = 2313;
@@ -653,7 +673,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 112";
 		rLen = 0;
-		rLoc = 3684;
+		rLoc = 4064;
 		rType = 0;
 		vrLen = 1930;
 		vrLoc = 2313;
@@ -663,7 +683,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 116";
 		rLen = 0;
-		rLoc = 3807;
+		rLoc = 4187;
 		rType = 0;
 		vrLen = 1919;
 		vrLoc = 2313;
@@ -673,7 +693,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 117";
 		rLen = 0;
-		rLoc = 4066;
+		rLoc = 4395;
 		rType = 0;
 		vrLen = 1914;
 		vrLoc = 2313;
@@ -683,7 +703,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 105";
 		rLen = 0;
-		rLoc = 3400;
+		rLoc = 3780;
 		rType = 0;
 		vrLen = 1711;
 		vrLoc = 2313;
@@ -693,7 +713,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 105";
 		rLen = 0;
-		rLoc = 3400;
+		rLoc = 3780;
 		rType = 0;
 		vrLen = 1677;
 		vrLoc = 2126;
@@ -753,7 +773,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 105";
 		rLen = 0;
-		rLoc = 3400;
+		rLoc = 3780;
 		rType = 0;
 		vrLen = 1780;
 		vrLoc = 2079;
@@ -763,7 +783,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 105";
 		rLen = 0;
-		rLoc = 3400;
+		rLoc = 3780;
 		rType = 0;
 		vrLen = 1633;
 		vrLoc = 2079;
@@ -793,7 +813,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 105";
 		rLen = 0;
-		rLoc = 3400;
+		rLoc = 3780;
 		rType = 0;
 		vrLen = 1780;
 		vrLoc = 2079;
@@ -803,7 +823,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 105";
 		rLen = 0;
-		rLoc = 3456;
+		rLoc = 3836;
 		rType = 0;
 		vrLen = 1699;
 		vrLoc = 2126;
@@ -813,7 +833,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 105";
 		rLen = 0;
-		rLoc = 3456;
+		rLoc = 3836;
 		rType = 0;
 		vrLen = 1699;
 		vrLoc = 2126;
@@ -823,7 +843,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 105";
 		rLen = 0;
-		rLoc = 3456;
+		rLoc = 3836;
 		rType = 0;
 		vrLen = 1699;
 		vrLoc = 2126;
@@ -833,7 +853,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 105";
 		rLen = 0;
-		rLoc = 3457;
+		rLoc = 3837;
 		rType = 0;
 		vrLen = 1677;
 		vrLoc = 2126;
@@ -843,7 +863,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 105";
 		rLen = 0;
-		rLoc = 3457;
+		rLoc = 3837;
 		rType = 0;
 		vrLen = 1733;
 		vrLoc = 2126;
@@ -883,7 +903,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 138";
 		rLen = 0;
-		rLoc = 4924;
+		rLoc = 5348;
 		rType = 0;
 		vrLen = 1597;
 		vrLoc = 3659;
@@ -893,7 +913,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 109";
 		rLen = 0;
-		rLoc = 3679;
+		rLoc = 4059;
 		rType = 0;
 		vrLen = 1708;
 		vrLoc = 2318;
@@ -903,7 +923,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 110";
 		rLen = 0;
-		rLoc = 3745;
+		rLoc = 4125;
 		rType = 0;
 		vrLen = 1678;
 		vrLoc = 2308;
@@ -913,7 +933,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 115";
 		rLen = 0;
-		rLoc = 4176;
+		rLoc = 4480;
 		rType = 0;
 		vrLen = 1678;
 		vrLoc = 2308;
@@ -962,7 +982,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 110";
 		rLen = 2;
-		rLoc = 3743;
+		rLoc = 4123;
 		rType = 0;
 		vrLen = 1673;
 		vrLoc = 2313;
@@ -1039,7 +1059,7 @@
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		rLen = 0;
-		rLoc = 107;
+		rLoc = 121;
 		rType = 1;
 	};
 	748D24B8128F93690037DDFB /* PBXTextBookmark */ = {
@@ -1047,7 +1067,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 102";
 		rLen = 0;
-		rLoc = 3351;
+		rLoc = 3731;
 		rType = 0;
 		vrLen = 1673;
 		vrLoc = 2313;
@@ -1057,7 +1077,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 102";
 		rLen = 0;
-		rLoc = 3351;
+		rLoc = 3731;
 		rType = 0;
 		vrLen = 1673;
 		vrLoc = 2313;
@@ -1086,7 +1106,7 @@
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		rLen = 0;
-		rLoc = 107;
+		rLoc = 121;
 		rType = 1;
 	};
 	748D24CE128F99430037DDFB /* PBXTextBookmark */ = {
@@ -1094,7 +1114,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 102";
 		rLen = 0;
-		rLoc = 3351;
+		rLoc = 3731;
 		rType = 0;
 		vrLen = 1673;
 		vrLoc = 2313;
@@ -1104,7 +1124,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 115";
 		rLen = 0;
-		rLoc = 4014;
+		rLoc = 4394;
 		rType = 0;
 		vrLen = 1732;
 		vrLoc = 2313;
@@ -1114,7 +1134,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 115";
 		rLen = 0;
-		rLoc = 4014;
+		rLoc = 4394;
 		rType = 0;
 		vrLen = 1732;
 		vrLoc = 2313;
@@ -1124,7 +1144,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 115";
 		rLen = 0;
-		rLoc = 4014;
+		rLoc = 4394;
 		rType = 0;
 		vrLen = 1732;
 		vrLoc = 2313;
@@ -1171,7 +1191,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 116";
 		rLen = 0;
-		rLoc = 4012;
+		rLoc = 4392;
 		rType = 0;
 		vrLen = 1778;
 		vrLoc = 2318;
@@ -1181,7 +1201,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 108";
 		rLen = 0;
-		rLoc = 3546;
+		rLoc = 3926;
 		rType = 0;
 		vrLen = 1782;
 		vrLoc = 2318;
@@ -1191,7 +1211,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 116";
 		rLen = 0;
-		rLoc = 3984;
+		rLoc = 4364;
 		rType = 0;
 		vrLen = 1782;
 		vrLoc = 2318;
@@ -1201,7 +1221,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 116";
 		rLen = 0;
-		rLoc = 3986;
+		rLoc = 4366;
 		rType = 0;
 		vrLen = 1780;
 		vrLoc = 2318;
@@ -1211,7 +1231,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 116";
 		rLen = 0;
-		rLoc = 3986;
+		rLoc = 4366;
 		rType = 0;
 		vrLen = 1780;
 		vrLoc = 2318;
@@ -1231,7 +1251,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 116";
 		rLen = 0;
-		rLoc = 3986;
+		rLoc = 4366;
 		rType = 0;
 		vrLen = 1780;
 		vrLoc = 2318;
@@ -1281,7 +1301,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 116";
 		rLen = 0;
-		rLoc = 3986;
+		rLoc = 4366;
 		rType = 0;
 		vrLen = 1780;
 		vrLoc = 2318;
@@ -1291,7 +1311,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 117";
 		rLen = 0;
-		rLoc = 4045;
+		rLoc = 4395;
 		rType = 0;
 		vrLen = 1890;
 		vrLoc = 2318;
@@ -1301,12 +1321,12 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 156";
 		rLen = 0;
-		rLoc = 5495;
+		rLoc = 5919;
 		rType = 0;
 		vrLen = 1608;
 		vrLoc = 3858;
 	};
-	748D251B128FB1EC0037DDFB /* WebSocketServer.m:165 */ = {
+	748D251B128FB1EC0037DDFB /* WebSocketServer.m:178 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -1318,7 +1338,7 @@
 		functionName = "-onSocket:didWriteDataWithTag:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 165;
+		lineNumber = 178;
 		location = WebSocketServer;
 		modificationTime = 311411261.789896;
 		originalNumberOfMultipleMatches = 1;
@@ -1349,7 +1369,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 156";
 		rLen = 32;
-		rLoc = 5464;
+		rLoc = 5888;
 		rType = 0;
 		vrLen = 1610;
 		vrLoc = 3861;
@@ -1379,7 +1399,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 117";
 		rLen = 0;
-		rLoc = 4045;
+		rLoc = 4395;
 		rType = 0;
 		vrLen = 1722;
 		vrLoc = 3165;
@@ -1389,7 +1409,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 139";
 		rLen = 0;
-		rLoc = 4924;
+		rLoc = 5348;
 		rType = 0;
 		vrLen = 1548;
 		vrLoc = 3843;
@@ -1399,7 +1419,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 139";
 		rLen = 0;
-		rLoc = 4924;
+		rLoc = 5348;
 		rType = 0;
 		vrLen = 1548;
 		vrLoc = 3843;
@@ -1409,7 +1429,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 118";
 		rLen = 0;
-		rLoc = 4176;
+		rLoc = 4480;
 		rType = 0;
 		vrLen = 1752;
 		vrLoc = 3267;
@@ -1419,7 +1439,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 137";
 		rLen = 0;
-		rLoc = 4805;
+		rLoc = 5229;
 		rType = 0;
 		vrLen = 1750;
 		vrLoc = 3267;
@@ -1429,7 +1449,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 137";
 		rLen = 0;
-		rLoc = 4805;
+		rLoc = 5229;
 		rType = 0;
 		vrLen = 1750;
 		vrLoc = 3267;
@@ -1439,7 +1459,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 137";
 		rLen = 0;
-		rLoc = 4805;
+		rLoc = 5229;
 		rType = 0;
 		vrLen = 1750;
 		vrLoc = 3267;
@@ -1449,12 +1469,12 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 137";
 		rLen = 0;
-		rLoc = 4805;
+		rLoc = 5229;
 		rType = 0;
 		vrLen = 1750;
 		vrLoc = 3267;
 	};
-	748D254A128FB5DB0037DDFB /* WebSocketServer.m:170 */ = {
+	748D254A128FB5DB0037DDFB /* WebSocketServer.m:183 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -1466,13 +1486,13 @@
 		functionName = "-onSocket:willDisconnectWithError:";
 		hitCount = 1;
 		ignoreCount = 0;
-		lineNumber = 170;
+		lineNumber = 183;
 		location = WebSocketServer;
 		modificationTime = 311447610.693174;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
-	748D254E128FB6230037DDFB /* WebSocketServer.m:173 */ = {
+	748D254E128FB6230037DDFB /* WebSocketServer.m:186 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -1484,7 +1504,7 @@
 		functionName = "-onSocket:didWritePartialDataOfLength:tag:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 173;
+		lineNumber = 186;
 		location = WebSocketServer;
 		modificationTime = 311411261.876129;
 		originalNumberOfMultipleMatches = 1;
@@ -1505,7 +1525,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 164";
 		rLen = 0;
-		rLoc = 5874;
+		rLoc = 6298;
 		rType = 0;
 		vrLen = 1689;
 		vrLoc = 3852;
@@ -1515,12 +1535,12 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 164";
 		rLen = 0;
-		rLoc = 5874;
+		rLoc = 6298;
 		rType = 0;
 		vrLen = 1686;
 		vrLoc = 3852;
 	};
-	748D2558128FB6930037DDFB /* WebSocketServer.m:64 */ = {
+	748D2558128FB6930037DDFB /* WebSocketServer.m:75 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -1532,7 +1552,7 @@
 		functionName = "-sendMessage:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 64;
+		lineNumber = 75;
 		location = WebSocketServer;
 		modificationTime = 311411261.911662;
 		originalNumberOfMultipleMatches = 1;
@@ -1542,7 +1562,7 @@
 		isa = PBXTextBookmark;
 		fRef = 7493E6CA128C3522001005A2 /* WebSocketServer.h */;
 		name = "WebSocketServer.h: 22";
-		rLen = 40;
+		rLen = 63;
 		rLoc = 546;
 		rType = 0;
 		vrLen = 640;
@@ -1553,7 +1573,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 164";
 		rLen = 0;
-		rLoc = 5874;
+		rLoc = 6298;
 		rType = 0;
 		vrLen = 1268;
 		vrLoc = 858;
@@ -1563,7 +1583,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 164";
 		rLen = 0;
-		rLoc = 5874;
+		rLoc = 6298;
 		rType = 0;
 		vrLen = 1268;
 		vrLoc = 858;
@@ -1583,7 +1603,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 118";
 		rLen = 0;
-		rLoc = 4042;
+		rLoc = 4395;
 		rType = 0;
 		vrLen = 1720;
 		vrLoc = 2961;
@@ -1593,7 +1613,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 118";
 		rLen = 0;
-		rLoc = 4066;
+		rLoc = 4395;
 		rType = 0;
 		vrLen = 2054;
 		vrLoc = 2351;
@@ -1603,7 +1623,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 100";
 		rLen = 0;
-		rLoc = 3301;
+		rLoc = 3681;
 		rType = 0;
 		vrLen = 1790;
 		vrLoc = 2318;
@@ -1613,7 +1633,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 100";
 		rLen = 0;
-		rLoc = 3301;
+		rLoc = 3681;
 		rType = 0;
 		vrLen = 1790;
 		vrLoc = 2318;
@@ -1623,7 +1643,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 100";
 		rLen = 0;
-		rLoc = 3301;
+		rLoc = 3681;
 		rType = 0;
 		vrLen = 1790;
 		vrLoc = 2318;
@@ -1633,12 +1653,12 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 100";
 		rLen = 0;
-		rLoc = 3301;
+		rLoc = 3681;
 		rType = 0;
 		vrLen = 1788;
 		vrLoc = 2318;
 	};
-	748D257C128FBD9F0037DDFB /* WebSocketServer.m:127 */ = {
+	748D257C128FBD9F0037DDFB /* WebSocketServer.m:139 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -1650,7 +1670,7 @@
 		functionName = "-sendHandshake";
 		hitCount = 1;
 		ignoreCount = 0;
-		lineNumber = 127;
+		lineNumber = 139;
 		location = WebSocketServer;
 		modificationTime = 311411270.2596;
 		originalNumberOfMultipleMatches = 1;
@@ -1661,7 +1681,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 100";
 		rLen = 0;
-		rLoc = 3301;
+		rLoc = 3681;
 		rType = 0;
 		vrLen = 1705;
 		vrLoc = 3165;
@@ -1671,7 +1691,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 100";
 		rLen = 0;
-		rLoc = 3301;
+		rLoc = 3681;
 		rType = 0;
 		vrLen = 1705;
 		vrLoc = 3165;
@@ -1685,7 +1705,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {866, 41314}}";
 			sepNavSelRange = "{87383, 19}";
-			sepNavVisRange = "{86851, 954}";
+			sepNavVisRange = "{86851, 978}";
 		};
 	};
 	748D2587128FBEDE0037DDFB /* AsyncSocket.m:2906 */ = {
@@ -1711,7 +1731,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 100";
 		rLen = 0;
-		rLoc = 3301;
+		rLoc = 3681;
 		rType = 0;
 		vrLen = 1732;
 		vrLoc = 2188;
@@ -1857,7 +1877,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 118";
 		rLen = 0;
-		rLoc = 4042;
+		rLoc = 4395;
 		rType = 0;
 		vrLen = 1599;
 		vrLoc = 3167;
@@ -1972,7 +1992,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 118";
 		rLen = 0;
-		rLoc = 4042;
+		rLoc = 4395;
 		rType = 0;
 		vrLen = 1642;
 		vrLoc = 3920;
@@ -2042,7 +2062,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 118";
 		rLen = 0;
-		rLoc = 4042;
+		rLoc = 4395;
 		rType = 0;
 		vrLen = 1676;
 		vrLoc = 3886;
@@ -2052,7 +2072,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 118";
 		rLen = 0;
-		rLoc = 4042;
+		rLoc = 4395;
 		rType = 0;
 		vrLen = 1642;
 		vrLoc = 3920;
@@ -2102,7 +2122,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 151";
 		rLen = 57;
-		rLoc = 5313;
+		rLoc = 5737;
 		rType = 0;
 		vrLen = 1075;
 		vrLoc = 0;
@@ -2192,7 +2212,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 68";
 		rLen = 0;
-		rLoc = 1805;
+		rLoc = 2185;
 		rType = 0;
 		vrLen = 1191;
 		vrLoc = 797;
@@ -2236,6 +2256,206 @@
 		vrLen = 954;
 		vrLoc = 86851;
 	};
+	748D25FC129082000037DDFB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7493E96D128EEE17001005A2 /* Utilities.m */;
+		name = "Utilities.m: 61";
+		rLen = 10;
+		rLoc = 1413;
+		rType = 0;
+		vrLen = 1496;
+		vrLoc = 1287;
+	};
+	748D25FD129082000037DDFB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 74AB5B70128A41C2007AB90F /* AsyncSocket.h */;
+		name = "AsyncSocket.h: 98";
+		rLen = 19;
+		rLoc = 3944;
+		rType = 0;
+		vrLen = 1948;
+		vrLoc = 3278;
+	};
+	748D25FE129082000037DDFB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7493E6CA128C3522001005A2 /* WebSocketServer.h */;
+		name = "WebSocketServer.h: 25";
+		rLen = 0;
+		rLoc = 667;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 0;
+	};
+	748D25FF129082000037DDFB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
+		name = "WebSocketServer.m: 66";
+		rLen = 0;
+		rLoc = 1902;
+		rType = 0;
+		vrLen = 1335;
+		vrLoc = 1223;
+	};
+	748D2600129082000037DDFB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
+		name = "WebSocketServer.m: 63";
+		rLen = 0;
+		rLoc = 1829;
+		rType = 0;
+		vrLen = 1357;
+		vrLoc = 1223;
+	};
+	748D2601129082000037DDFB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 748D2585128FBE3F0037DDFB /* AsyncSocket.m */;
+		name = "AsyncSocket.m: 2906";
+		rLen = 19;
+		rLoc = 87383;
+		rType = 0;
+		vrLen = 954;
+		vrLoc = 86851;
+	};
+	748D2603129082AC0037DDFB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7493E6CA128C3522001005A2 /* WebSocketServer.h */;
+		name = "WebSocketServer.h: 27";
+		rLen = 0;
+		rLoc = 731;
+		rType = 0;
+		vrLen = 738;
+		vrLoc = 0;
+	};
+	748D2604129082AC0037DDFB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
+		name = "WebSocketServer.m: 63";
+		rLen = 0;
+		rLoc = 1444;
+		rType = 0;
+		vrLen = 1391;
+		vrLoc = 1223;
+	};
+	748D2605129082AC0037DDFB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
+		name = "WebSocketServer.m: 64";
+		rLen = 0;
+		rLoc = 1763;
+		rType = 0;
+		vrLen = 1391;
+		vrLoc = 1223;
+	};
+	748D2606129082AC0037DDFB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 748D2585128FBE3F0037DDFB /* AsyncSocket.m */;
+		name = "AsyncSocket.m: 2906";
+		rLen = 19;
+		rLoc = 87383;
+		rType = 0;
+		vrLen = 954;
+		vrLoc = 86851;
+	};
+	748D2611129085C20037DDFB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
+		name = "WebSocketServer.m: 75";
+		rLen = 0;
+		rLoc = 2044;
+		rType = 0;
+		vrLen = 1394;
+		vrLoc = 1223;
+	};
+	748D2612129085C20037DDFB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 748D2585128FBE3F0037DDFB /* AsyncSocket.m */;
+		name = "AsyncSocket.m: 2906";
+		rLen = 19;
+		rLoc = 87383;
+		rType = 0;
+		vrLen = 954;
+		vrLoc = 86851;
+	};
+	748D261F129089C80037DDFB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7493E6CA128C3522001005A2 /* WebSocketServer.h */;
+		name = "WebSocketServer.h: 27";
+		rLen = 0;
+		rLoc = 731;
+		rType = 0;
+		vrLen = 738;
+		vrLoc = 0;
+	};
+	748D2620129089C80037DDFB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
+		name = "WebSocketServer.m: 70";
+		rLen = 0;
+		rLoc = 1725;
+		rType = 0;
+		vrLen = 1559;
+		vrLoc = 1361;
+	};
+	748D2621129089C80037DDFB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
+		name = "WebSocketServer.m: 142";
+		rLen = 0;
+		rLoc = 4612;
+		rType = 0;
+		vrLen = 1810;
+		vrLoc = 3044;
+	};
+	748D2622129089C80037DDFB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 748D2585128FBE3F0037DDFB /* AsyncSocket.m */;
+		name = "AsyncSocket.m: 2906";
+		rLen = 19;
+		rLoc = 87383;
+		rType = 0;
+		vrLen = 954;
+		vrLoc = 86851;
+	};
+	748D262912908A040037DDFB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
+		name = "WebSocketServer.m: 142";
+		rLen = 0;
+		rLoc = 4612;
+		rType = 0;
+		vrLen = 1907;
+		vrLoc = 3243;
+	};
+	748D262A12908A040037DDFB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 748D2585128FBE3F0037DDFB /* AsyncSocket.m */;
+		name = "AsyncSocket.m: 2906";
+		rLen = 19;
+		rLoc = 87383;
+		rType = 0;
+		vrLen = 954;
+		vrLoc = 86851;
+	};
+	748D263012908B5E0037DDFB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
+		name = "WebSocketServer.m: 142";
+		rLen = 0;
+		rLoc = 4598;
+		rType = 0;
+		vrLen = 1880;
+		vrLoc = 2933;
+	};
+	748D263112908B5E0037DDFB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 748D2585128FBE3F0037DDFB /* AsyncSocket.m */;
+		name = "AsyncSocket.m: 2906";
+		rLen = 19;
+		rLoc = 87383;
+		rType = 0;
+		vrLen = 978;
+		vrLoc = 86851;
+	};
 	7493E6C2128C3446001005A2 /* main.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {927, 569}}";
@@ -2246,9 +2466,9 @@
 	};
 	7493E6CA128C3522001005A2 /* WebSocketServer.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {927, 569}}";
-			sepNavSelRange = "{259, 0}";
-			sepNavVisRange = "{0, 674}";
+			sepNavIntBoundsRect = "{{0, 0}, {927, 546}}";
+			sepNavSelRange = "{731, 0}";
+			sepNavVisRange = "{0, 738}";
 			sepNavWindowFrame = "{{88, 152}, {750, 558}}";
 		};
 	};
@@ -2271,9 +2491,9 @@
 	};
 	7493E96D128EEE17001005A2 /* Utilities.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {927, 1196}}";
-			sepNavSelRange = "{1547, 0}";
-			sepNavVisRange = "{801, 1237}";
+			sepNavIntBoundsRect = "{{0, 0}, {927, 1274}}";
+			sepNavSelRange = "{1413, 10}";
+			sepNavVisRange = "{1287, 1496}";
 			sepNavWindowFrame = "{{111, 131}, {750, 558}}";
 		};
 	};
@@ -2350,7 +2570,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */;
 		name = "WebSocketServer.m: 111";
 		rLen = 0;
-		rLoc = 4017;
+		rLoc = 4395;
 		rType = 0;
 		vrLen = 1814;
 		vrLoc = 2922;
@@ -2422,7 +2642,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {927, 6708}}";
 			sepNavSelRange = "{3944, 19}";
-			sepNavVisRange = "{3278, 2054}";
+			sepNavVisRange = "{3278, 1948}";
 		};
 	};
 	74AB5B71128A41C2007AB90F /* AsyncSocket.m */ = {
