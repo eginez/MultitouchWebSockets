@@ -4,13 +4,16 @@ extern NSString * const kNotification;
 extern NSString * const kNotificationMessage;
 
 @class AsyncSocket;
+@class WebSocketUtilities;
 
 @interface WebSocketServer : NSObject {
-    AsyncSocket *socket;
+    AsyncSocket *listenersocket;
+	NSMutableArray *clients;
     BOOL isRunning;
 	BOOL isHandShaken;
 	NSMutableDictionary *headerInfo;
     NSNotificationCenter* notificationCenter;
+	WebSocketUtilities *util;
 }
 
 @property (readwrite, assign) BOOL isRunning;
@@ -19,6 +22,7 @@ extern NSString * const kNotificationMessage;
 - (void)start:(NSNumber *)port;
 - (void)sendMessage:(NSString *)message;
 - (void)stop;
-- (void)parseHandshake:(NSString *)message
+- (void)parseHandshake:(NSString *)message;
+- (BOOL)sendHandshake;
 
 @end

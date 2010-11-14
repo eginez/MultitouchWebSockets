@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7493E6C3128C3446001005A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7493E6C2128C3446001005A2 /* main.m */; };
+		7493E96E128EEE17001005A2 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7493E96D128EEE17001005A2 /* Utilities.m */; };
+		7493EAE3128F2435001005A2 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7493EAE2128F2435001005A2 /* libcrypto.dylib */; };
 		74AB5B72128A41C2007AB90F /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AB5B71128A41C2007AB90F /* AsyncSocket.m */; };
 		74AB5B82128A42E8007AB90F /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AB5B81128A42E8007AB90F /* CoreServices.framework */; };
 		8DD76F9A0486AA7600D96B5E /* WebSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */; settings = {ATTRIBUTES = (); }; };
@@ -34,6 +36,9 @@
 		32A70AAB03705E1F00C91783 /* WebSocketServer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocketServer_Prefix.pch; sourceTree = "<group>"; };
 		7493E6C2128C3446001005A2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7493E6CA128C3522001005A2 /* WebSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocketServer.h; sourceTree = "<group>"; };
+		7493E96C128EED31001005A2 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		7493E96D128EEE17001005A2 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		7493EAE2128F2435001005A2 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
 		74AB5B70128A41C2007AB90F /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
 		74AB5B71128A41C2007AB90F /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
 		74AB5B81128A42E8007AB90F /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
@@ -48,6 +53,7 @@
 			files = (
 				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
 				74AB5B82128A42E8007AB90F /* CoreServices.framework in Frameworks */,
+				7493EAE3128F2435001005A2 /* libcrypto.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +80,8 @@
 				7493E6CA128C3522001005A2 /* WebSocketServer.h */,
 				08FB7796FE84155DC02AAC07 /* WebSocketServer.m */,
 				7493E6C2128C3446001005A2 /* main.m */,
+				7493E96C128EED31001005A2 /* Utilities.h */,
+				7493E96D128EEE17001005A2 /* Utilities.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -83,6 +91,7 @@
 			children = (
 				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
 				74AB5B81128A42E8007AB90F /* CoreServices.framework */,
+				7493EAE2128F2435001005A2 /* libcrypto.dylib */,
 			);
 			name = "External Frameworks and Libraries";
 			sourceTree = "<group>";
@@ -149,6 +158,7 @@
 				8DD76F9A0486AA7600D96B5E /* WebSocketServer.m in Sources */,
 				74AB5B72128A41C2007AB90F /* AsyncSocket.m in Sources */,
 				7493E6C3128C3446001005A2 /* main.m in Sources */,
+				7493E96E128EEE17001005A2 /* Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
