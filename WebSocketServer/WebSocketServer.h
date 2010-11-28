@@ -1,7 +1,6 @@
-#import <Foundation/Foundation.h>
+#import "WebSocketServer_Prefix.pch"
 
-extern NSString * const kNotification;
-extern NSString * const kNotificationMessage;
+extern NSString * const kNotifcationNewClient;
 
 @class AsyncSocket;
 @class WebSocketUtilities;
@@ -19,8 +18,10 @@ extern NSString * const kNotificationMessage;
 @property (readwrite, assign) BOOL isRunning;
 @property (readwrite, assign) BOOL isHandShaken;
 
++ (WebSocketServer *)startThreaded:(NSNumber *)port;
 - (void)start:(NSNumber *)port;
 - (void)sendMessage:(NSString *)message toClient:(int)clientId;
+- (void)broadcastMessage:(NSString *)message;
 - (void)stop;
 - (void)parseHandshake:(NSString *)message;
 - (BOOL)sendHandshake;

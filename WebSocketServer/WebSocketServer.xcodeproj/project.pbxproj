@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		748D26361290AF710037DDFB /* Multitouchdata.m in Sources */ = {isa = PBXBuildFile; fileRef = 748D26351290AF710037DDFB /* Multitouchdata.m */; };
+		748D263D1290B2120037DDFB /* MultitouchSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748D263C1290B2120037DDFB /* MultitouchSupport.framework */; };
+		748D26401290B2320037DDFB /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748D263F1290B2320037DDFB /* CoreFoundation.framework */; };
+		748D26441290B2420037DDFB /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748D26431290B2420037DDFB /* ApplicationServices.framework */; };
 		7493E6C3128C3446001005A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7493E6C2128C3446001005A2 /* main.m */; };
 		7493E96E128EEE17001005A2 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7493E96D128EEE17001005A2 /* Utilities.m */; };
 		7493EAE3128F2435001005A2 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7493EAE2128F2435001005A2 /* libcrypto.dylib */; };
 		74AB5B72128A41C2007AB90F /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AB5B71128A41C2007AB90F /* AsyncSocket.m */; };
 		74AB5B82128A42E8007AB90F /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AB5B81128A42E8007AB90F /* CoreServices.framework */; };
+		74D6E428129A090B00FB2C3F /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D6E427129A090B00FB2C3F /* AppController.m */; };
 		8DD76F9A0486AA7600D96B5E /* WebSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 		8DD76F9F0486AA7600D96B5E /* WebSocketServer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* WebSocketServer.1 */; };
@@ -34,6 +39,11 @@
 		08FB7796FE84155DC02AAC07 /* WebSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSocketServer.m; sourceTree = "<group>"; };
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32A70AAB03705E1F00C91783 /* WebSocketServer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocketServer_Prefix.pch; sourceTree = "<group>"; };
+		748D26351290AF710037DDFB /* Multitouchdata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Multitouchdata.m; sourceTree = "<group>"; };
+		748D263C1290B2120037DDFB /* MultitouchSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultitouchSupport.framework; path = /System/Library/PrivateFrameworks/MultitouchSupport.framework; sourceTree = "<absolute>"; };
+		748D263F1290B2320037DDFB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		748D26431290B2420037DDFB /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		748D264C1290BBE80037DDFB /* Multitouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Multitouch.h; sourceTree = "<group>"; };
 		7493E6C2128C3446001005A2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7493E6CA128C3522001005A2 /* WebSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocketServer.h; sourceTree = "<group>"; };
 		7493E96C128EED31001005A2 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
@@ -42,6 +52,8 @@
 		74AB5B70128A41C2007AB90F /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
 		74AB5B71128A41C2007AB90F /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
 		74AB5B81128A42E8007AB90F /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		74D6E426129A090B00FB2C3F /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		74D6E427129A090B00FB2C3F /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		8DD76FA10486AA7600D96B5E /* WebSocketServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WebSocketServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859EA3029092ED04C91782 /* WebSocketServer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WebSocketServer.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +66,9 @@
 				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
 				74AB5B82128A42E8007AB90F /* CoreServices.framework in Frameworks */,
 				7493EAE3128F2435001005A2 /* libcrypto.dylib in Frameworks */,
+				748D263D1290B2120037DDFB /* MultitouchSupport.framework in Frameworks */,
+				748D26401290B2320037DDFB /* CoreFoundation.framework in Frameworks */,
+				748D26441290B2420037DDFB /* ApplicationServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +78,8 @@
 		08FB7794FE84155DC02AAC07 /* WebSocketServer */ = {
 			isa = PBXGroup;
 			children = (
-				08FB7795FE84155DC02AAC07 /* Source */,
 				C6859EA2029092E104C91782 /* Documentation */,
+				08FB7795FE84155DC02AAC07 /* Source */,
 				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
 			);
@@ -74,14 +89,18 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				74D6E426129A090B00FB2C3F /* AppController.h */,
+				74D6E427129A090B00FB2C3F /* AppController.m */,
 				74AB5B70128A41C2007AB90F /* AsyncSocket.h */,
 				74AB5B71128A41C2007AB90F /* AsyncSocket.m */,
 				32A70AAB03705E1F00C91783 /* WebSocketServer_Prefix.pch */,
 				7493E6CA128C3522001005A2 /* WebSocketServer.h */,
 				08FB7796FE84155DC02AAC07 /* WebSocketServer.m */,
+				748D26351290AF710037DDFB /* Multitouchdata.m */,
 				7493E6C2128C3446001005A2 /* main.m */,
 				7493E96C128EED31001005A2 /* Utilities.h */,
 				7493E96D128EEE17001005A2 /* Utilities.m */,
+				748D264C1290BBE80037DDFB /* Multitouch.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -92,6 +111,9 @@
 				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
 				74AB5B81128A42E8007AB90F /* CoreServices.framework */,
 				7493EAE2128F2435001005A2 /* libcrypto.dylib */,
+				748D263C1290B2120037DDFB /* MultitouchSupport.framework */,
+				748D263F1290B2320037DDFB /* CoreFoundation.framework */,
+				748D26431290B2420037DDFB /* ApplicationServices.framework */,
 			);
 			name = "External Frameworks and Libraries";
 			sourceTree = "<group>";
@@ -159,6 +181,8 @@
 				74AB5B72128A41C2007AB90F /* AsyncSocket.m in Sources */,
 				7493E6C3128C3446001005A2 /* main.m in Sources */,
 				7493E96E128EEE17001005A2 /* Utilities.m in Sources */,
+				748D26361290AF710037DDFB /* Multitouchdata.m in Sources */,
+				74D6E428129A090B00FB2C3F /* AppController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,12 +194,17 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WebSocketServer_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = WebSocketServer;
 			};
@@ -186,6 +215,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WebSocketServer_Prefix.pch;

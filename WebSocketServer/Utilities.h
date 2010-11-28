@@ -7,7 +7,13 @@
  *
  */
 
-#import <Foundation/Foundation.h>
+#import "WebSocketServer_Prefix.pch"
+
+#ifdef DEBUG
+#define TLog(xx, ...) NSLog(@"%s(%d): " xx, ((strrchr(__FILE__, '/') ? : __FILE__- 1) + 1), __LINE__, ##__VA_ARGS__)
+#else
+#define TLog(xx, ...) ((void)0)
+#endif
 
 @interface WebSocketUtilities:NSObject{
 }

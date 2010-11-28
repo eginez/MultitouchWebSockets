@@ -40,4 +40,6 @@ sock.send(str)
 by = sock.recv(255)
 print _hexify(by)
 print by
+by = sock.recv(4);
+print by
 
