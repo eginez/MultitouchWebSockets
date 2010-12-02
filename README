@@ -4,3 +4,6 @@ data from the hardware to the web app.
 
 0.1: 
  - Very basic websocket server written in Objective C
+ - supports only one client
+ - broadcasting only one point
+
