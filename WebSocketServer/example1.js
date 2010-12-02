@@ -27,15 +27,29 @@ window.addEventListener('load', function () {
     // movements. We start drawing a path made up of lines.
 	 // alert(evt.data)
 	 d = evt.data.split(" ");
+						if(d.length < 3){
+						//console.log(d)
+						started = false;
+						return
+						}
+	
 	 id = parseInt(d[0]);
 	 x= parseInt(d[1]);
 	 y=parseInt(d[2]);
-    if (!started) {
+						var h = canvas.height;
+						var w = canvas.width;		
+						var realx = x*w/100;
+						var realy= y*h/100;
+						var mx = evt.layerX;
+						var my = evt.layerY;
+						
+						console.log(realx + " "+realy);
+	if (!started) {
       context.beginPath();
-      context.moveTo(x, y);
+      context.moveTo(realx, realy);
       started = true;
     } else {
-      context.lineTo(x, y);
+      context.lineTo(realx, realy);
       context.stroke();
     }
   

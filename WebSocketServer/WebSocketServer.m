@@ -92,7 +92,6 @@ NSString * const kNotificationNewClient =@"kNewClient";
 - (void)broadcastMessage:(NSString *)message{
 	for (int i=0;i<[clients count]; i++)
 			[self sendMessage:message toClient:i];
-		//[self sendMessage:@"1 10 10" toClient:i];
 }
 - (void)onSocket:(AsyncSocket *)sock didAcceptNewSocket:(AsyncSocket *)newSocket{
 	[clients addObject:newSocket];

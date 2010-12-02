@@ -17,6 +17,7 @@
 		74AB5B72128A41C2007AB90F /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AB5B71128A41C2007AB90F /* AsyncSocket.m */; };
 		74AB5B82128A42E8007AB90F /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AB5B81128A42E8007AB90F /* CoreServices.framework */; };
 		74D6E428129A090B00FB2C3F /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D6E427129A090B00FB2C3F /* AppController.m */; };
+		74FB84C812A73B9A00A6BE90 /* example1.js in Sources */ = {isa = PBXBuildFile; fileRef = 74FB84C712A73B9A00A6BE90 /* example1.js */; };
 		8DD76F9A0486AA7600D96B5E /* WebSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* WebSocketServer.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 		8DD76F9F0486AA7600D96B5E /* WebSocketServer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* WebSocketServer.1 */; };
@@ -54,6 +55,8 @@
 		74AB5B81128A42E8007AB90F /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		74D6E426129A090B00FB2C3F /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		74D6E427129A090B00FB2C3F /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		74FB84C712A73B9A00A6BE90 /* example1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = example1.js; sourceTree = "<group>"; };
+		74FB850E12A758DF00A6BE90 /* canvas.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = canvas.html; sourceTree = "<group>"; };
 		8DD76FA10486AA7600D96B5E /* WebSocketServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WebSocketServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859EA3029092ED04C91782 /* WebSocketServer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WebSocketServer.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,6 +92,8 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				74FB850E12A758DF00A6BE90 /* canvas.html */,
+				74FB84C712A73B9A00A6BE90 /* example1.js */,
 				74D6E426129A090B00FB2C3F /* AppController.h */,
 				74D6E427129A090B00FB2C3F /* AppController.m */,
 				74AB5B70128A41C2007AB90F /* AsyncSocket.h */,
@@ -183,6 +188,7 @@
 				7493E96E128EEE17001005A2 /* Utilities.m in Sources */,
 				748D26361290AF710037DDFB /* Multitouchdata.m in Sources */,
 				74D6E428129A090B00FB2C3F /* AppController.m in Sources */,
+				74FB84C812A73B9A00A6BE90 /* example1.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
